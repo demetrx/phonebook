@@ -4,9 +4,13 @@ import { Link } from 'react-router-dom';
 export const Title = styled.h1`
   color: ${p => p.theme.colors.primary};
   text-align: center;
-  font-size: ${p => p.theme.fontSizes.xl};
+  font-size: 36px;
   font-weight: ${p => p.theme.fontWeights.black};
   text-transform: uppercase;
+
+  @media screen and (min-width: ${p => p.theme.breakpoints[1]}) {
+    font-size: ${p => p.theme.fontSizes.xl};
+  }
 `;
 
 export const Moto = styled.p`

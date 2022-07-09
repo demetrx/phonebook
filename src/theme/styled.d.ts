@@ -24,6 +24,7 @@ declare module 'styled-components' {
     radii: {
       [x: string]: string;
     };
+    breakpoints: string[];
     transition: string;
   }
 }

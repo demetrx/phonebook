@@ -7,7 +7,7 @@ export const Label = styled.label`
 
 export const FilterInput = styled.input`
   border-radius: ${p => p.theme.radii.large};
-  width: 370px;
+  width: 100%;
   padding: ${p => p.theme.space[3]}px ${p => p.theme.space[4]}px;
   transition: outline-color ${p => p.theme.transition};
   outline: 2px solid transparent;
@@ -16,5 +16,13 @@ export const FilterInput = styled.input`
 
   :focus {
     outline-color: ${p => p.theme.colors.accent};
+  }
+
+  @media screen and (min-width: ${p => p.theme.breakpoints[1]}) {
+    width: 300px;
+  }
+
+  @media screen and (min-width: ${p => p.theme.breakpoints[2]}) {
+    width: 370px;
   }
 `;

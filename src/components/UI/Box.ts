@@ -11,7 +11,6 @@ import {
 } from 'styled-system';
 
 interface Props extends ColorProps, LayoutProps, SpaceProps, FlexboxProps {
-  // readonly children: React.ReactNode;
   readonly gap?: number;
 }
 

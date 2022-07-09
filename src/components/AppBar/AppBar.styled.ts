@@ -12,6 +12,14 @@ export const Header = styled.header`
 
 export const HeaderContainer = styled(ContainerStyled)`
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: ${p => p.theme.space[4]}px ${p => p.theme.space[5]}px;
+
+  @media screen and (min-width: ${p => p.theme.breakpoints[1]}) {
+    gap: 0;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 `;

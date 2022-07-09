@@ -17,4 +17,19 @@ export const ModalStyled = styled.div`
   max-height: 90%;
   overflow: hidden;
   position: relative;
+
+  & section {
+    @media screen and (min-width: ${p => p.theme.breakpoints[1]}) {
+      padding-left: ${p => p.theme.space[7]}px;
+      padding-right: ${p => p.theme.space[7]}px;
+    }
+  }
+
+  & button {
+    display: none;
+
+    @media screen and (min-width: ${p => p.theme.breakpoints[1]}) {
+      display: flex;
+    }
+  }
 `;

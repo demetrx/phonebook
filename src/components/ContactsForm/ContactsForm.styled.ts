@@ -7,6 +7,10 @@ export const Form = styled.form<LayoutProps>`
   align-items: flex-start;
 
   ${layout}
+
+  @media screen and (max-width: ${p => p.theme.breakpoints[1]}) {
+    width: 100%;
+  }
 `;
 
 export const Input = styled.input`

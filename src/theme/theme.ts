@@ -42,12 +42,12 @@ const theme: DefaultTheme = {
     thick: '3px solid',
   },
   radii: {
-    none: '0',
     input: '4px',
     normal: '8px',
     large: '25px',
     round: '50%',
   },
+  breakpoints: ['20em', '48em', '75em'],
   transition: '300ms ease',
 };
 

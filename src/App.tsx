@@ -54,7 +54,7 @@ function App() {
               </Route>
               <Route
                 path="/login"
-                element={<RestrictedOutlet redirectTo="/" />}
+                element={<RestrictedOutlet redirectTo="/contacts" />}
               >
                 <Route path="/login" element={<LogInView />} />
               </Route>

@@ -22,6 +22,10 @@ export const AuthLink = styled(Link)`
 `;
 export const Auth = styled.section`
   width: 300px;
-  margin: 100px auto 0;
+  margin: 40px auto 0;
   text-align: center;
+
+  @media screen and (min-width: ${p => p.theme.breakpoints[1]}) {
+    margin: 100px auto 0;
+  }
 `;

@@ -17,7 +17,7 @@ const ContactsView = () => {
     <>
       {contactToEdit && (
         <Modal onClose={handleCloseModal}>
-          <Section title="Edit Contact" px={7}>
+          <Section title="Edit Contact">
             <EditContact id={contactToEdit} onClose={handleCloseModal} />
           </Section>
         </Modal>
