@@ -11,6 +11,6 @@
  - Styled Components, 
  - Styled System, 
  - Theme Spec 
- - and Material-UI.
+ - Material-UI.
  
  <sub>Design inspiration: https://react-hook-form.com</sub>
