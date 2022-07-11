@@ -15,7 +15,7 @@ const ContactsItem = ({ id, name, number, onEdit }: props) => {
   const [onDelete, { isLoading, isSuccess }] = useRemoveContactMutation();
 
   useEffect(() => {
-    isSuccess && toast.success(name + ' deleted from phonebook!');
+    isSuccess && toast.success(name + ' deleted from contacts!');
   }, [isSuccess, name]);
 
   return (

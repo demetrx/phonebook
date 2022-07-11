@@ -30,7 +30,7 @@ const ContactsForm = () => {
       if ('error' in result) {
         toast.error('Failed to add contact, retry later!');
       } else {
-        toast.success(data.name + ' added to phonebook successfully');
+        toast.success(data.name + ' added to contacts successfully');
       }
     });
 

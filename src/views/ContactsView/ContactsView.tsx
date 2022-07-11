@@ -25,7 +25,7 @@ const ContactsView = () => {
 
       <Box display="flex" justifyContent="start" mt={5} gap={3}>
         <Logo width={50} m={0} />
-        <Title>Phonebook</Title>
+        <Title>HotLine</Title>
       </Box>
 
       <MainContent>

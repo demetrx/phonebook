@@ -12,7 +12,7 @@ const HomeView = () => {
   return (
     <>
       <Box display="flex" gap={4} mt={6} justifyContent="center">
-        <Title>Phonebook</Title>
+        <Title>HotLine</Title>
       </Box>
 
       {isLoggedIn ? (
